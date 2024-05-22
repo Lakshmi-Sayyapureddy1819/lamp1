@@ -1,0 +1,12 @@
+CSS
+.header {
+  @apply justify-between items-center py-4;
+}
+
+.header h1 {
+  @apply text-3xl font-bold;
+}
+
+.header nav a {
+  @apply text-gray-600 hover:text-gray-800 px-3;
+}
